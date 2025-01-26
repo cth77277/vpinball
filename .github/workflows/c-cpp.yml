@@ -48,6 +48,7 @@ jobs:
       - name: generate shaders
         run: |
           cd src/shaders/bgfx
+           export PATH=$PATH:$(pwd)/src/shaders/bgfx
           ./shaders.sh
       - name: copy headers
         run: |
