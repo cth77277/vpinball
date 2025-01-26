@@ -43,6 +43,7 @@ process_shader() {
 
     local output_path="../bgfx_${output_file}"
     local short_name="${header:0:${#header}-1}"
+    find / -name "shaderc" 2>/dev/null
 
     echo -e "\n//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\n// Build of ${type} shader from ${source} to ${short_name} with options: ${defines[*]}" >> "$output_path"
     echo "> ${type} shader from ${source} to ${short_name} with ${defines[*]}"
