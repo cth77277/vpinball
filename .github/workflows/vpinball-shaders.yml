@@ -1,4 +1,4 @@
-name: vpinball-bgfx-shaders
+name: vpinball-bgfx-shaders2
 on:
   workflow_dispatch:
 
