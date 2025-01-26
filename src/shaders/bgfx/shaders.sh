@@ -39,7 +39,7 @@ process_shader() {
         '--platform windows -p spirv     '
     )
 
-    local shaderc="shaderc.exe"
+    local shaderc="./shaderc"
 
     local output_path="../bgfx_${output_file}"
     local short_name="${header:0:${#header}-1}"
