@@ -33,7 +33,7 @@ process_shader() {
 
     local targets=(
         '--platform osx     -p metal -O 3'
-        '--platform windows -p 310_es    '
+        '--platform windows -p 300_es    '
         '--platform windows -p 440       '
         '--platform windows -p s_5_0 -O 3'
         '--platform windows -p spirv     '
